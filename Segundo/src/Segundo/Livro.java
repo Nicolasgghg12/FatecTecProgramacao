@@ -16,9 +16,7 @@ public class Livro {
 		System.out.println(" * Descrição do livro: " + descricao);
 		System.out.println(" * Proço: " + valor);
 		System.out.println(" * Código do produto: " + isbn);
-		System.out.println("   * Nome Autor: " + autor.nome);
-		System.out.println("   * Email Autor: " + autor.email);
-		System.out.println("   * Cpf Autor: " + autor.cpf);
+		autor.mostrarDetalhes();
 		System.out.println("----------");
 	}
 	

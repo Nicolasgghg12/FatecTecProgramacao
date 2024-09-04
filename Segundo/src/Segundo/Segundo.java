@@ -30,20 +30,18 @@ public class Segundo {
 		livro.descricao = "Novos recursos da linguagem" ;
 		livro.valor = 59.90 ;
 		livro.isbn = "978-85-66250-46-6" ;
-		livro.autor = autor2;
 		
 		Livro outroLivro = new Livro();
 		outroLivro.nome = "Lógica de programação" ;
 		outroLivro.descricao = "Crie seus primeiros programas" ;
 		outroLivro.valor = 59.90 ;
 		outroLivro.isbn = "978-85-66250-22-0" ;
-		outroLivro.autor = autor1;
 		
 		
 		//declarando autor do livro
 		
-		livro.autor = autor1;
-		outroLivro.autor = autor2;
+		livro.autor = autor2;
+		outroLivro.autor = autor1;
 		
 		
 		
